@@ -1,0 +1,49 @@
+# Variables de entorno
+.env
+
+# Modelos y serializaciones entrenadas (pesados)
+trained/
+*.keras
+*.pkl
+*.h5
+*.joblib
+*.pb
+*.onnx
+
+# Datos y datasets generados (CSV, Excel)
+*.csv
+*.xlsx
+*.tsv
+
+# Python y compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
